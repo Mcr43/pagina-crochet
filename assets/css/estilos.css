@@ -1,0 +1,43 @@
+:root {
+    --color-azul: #4E56C0;
+    --color-morado: #9B5DE0;
+    --color-rosado: #D78FEE;
+    --color-salmon: #FDCFFA;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4cf;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.navbar {
+    background-color: var(--color-morado);
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    margin: 0px 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#section-destacados h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#contenedor-imagenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
